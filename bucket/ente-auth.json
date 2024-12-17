@@ -12,12 +12,8 @@
         "regex": "/releases/tag/(?:auth-v)?([\\d.]+)"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/ente-auth-v$version-windows.zip",
-                "extract_dir": "ente-auth-v$version-windows"
-            }
-        },
+        "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/ente-auth-v$version-windows.zip",
+        "extract_dir": "ente-auth-v$version-windows",
         "hash": {
             "url": "https://github.com/ente-io/ente/releases/download/auth-v$version/sha256sum-windows",
             "regex": "$sha256\\s+\\*artifacts/$basename"
