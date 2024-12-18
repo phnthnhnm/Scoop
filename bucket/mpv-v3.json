@@ -9,6 +9,7 @@
             "hash": "3f74b36bcc7954772765f6f92b451aafad81a54daf702eecdea74c0dcee016a9"
         }
     },
+    "pre_install": "Remove-Item \"$dir\\updater.bat\"",
     "env_add_path": ".",
     "shortcuts": [["mpv.exe", "mpv"]],
     "persist": "portable_config",
