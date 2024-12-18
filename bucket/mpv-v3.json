@@ -1,29 +1,25 @@
 {
-    "version": "0.39.0",
-    "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
+    "version": "2024-12-18-32d103c",
+    "description": "mpv Windows builds with latest commits (by zhongfly)",
     "homepage": "https://mpv.io",
-    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
-    "notes": "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types.",
-    "suggest": {
-        "yt-dlp": "yt-dlp"
-    },
+    "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.39.0-x86_64-v3.7z",
-            "hash": "sha1:33f0524fb9b379e904d1fd925ef602c529e03c16"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2024-12-18-32d103c/mpv-x86_64-v3-20241218-git-32d103c.7z",
+            "hash": "3f74b36bcc7954772765f6f92b451aafad81a54daf702eecdea74c0dcee016a9"
         }
     },
     "env_add_path": ".",
     "shortcuts": [["mpv.exe", "mpv"]],
     "persist": "portable_config",
     "checkver": {
-        "sourceforge": "mpv-player-windows/release",
-        "regex": "mpv-([\\d.]+)-"
+        "github": "https://github.com/zhongfly/mpv-winbuild",
+        "regex": "/releases/tag/(?:v|V)?([\\d-]+[\\da-f]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-x86_64-v3.7z"
+                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$version/mpv-x86_64-v3-$version.7z"
             }
         }
     }
