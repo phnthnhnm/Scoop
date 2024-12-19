@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$version/mpv-x86_64-v3-$version.7z"
+                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$version/mpv-x86_64-v3-*.7z"
             }
         }
     }
