@@ -14,13 +14,14 @@
     "shortcuts": [["mpv.exe", "mpv"]],
     "persist": "portable_config",
     "checkver": {
-        "github": "https://github.com/zhongfly/mpv-winbuild",
-        "regex": "/releases/tag/(?:v|V)?([\\d-]+[\\da-f]+)"
+        "url": "https://api.github.com/repos/zhongfly/mpv-winbuild/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
+        "regex": "mpv-x86_64-v3-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$version/mpv-x86_64-v3-*.7z"
+                "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/$version/mpv-x86_64-v3-$version-git-$matchCommit.7z"
             }
         }
     }
