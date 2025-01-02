@@ -9,7 +9,7 @@
     "shortcuts": [["EPubMetadataEditor.exe", "EPUB Metadata Editor"]],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/benchen71/epub-metadata-editor/releases/download/1.9.8/EPubMetadataEditorNoInstaller.zip"
+        "url": "https://github.com/benchen71/epub-metadata-editor/releases/download/v$version/EPubMetadataEditorNoInstaller.zip"
     }
 }
 
