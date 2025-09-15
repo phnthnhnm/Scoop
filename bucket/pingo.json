@@ -1,12 +1,12 @@
 {
-    "version": "1.25",
+    "version": "1.25.1",
     "description": "An experimental lossless and lossy image optimizer (PNG, JPEG, WebP, APNG) designed to be used for web context.",
     "homepage": "https://css-ig.net/pingo",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://css-ig.net/bin/pingo-win64.zip",
-            "hash": "538d943bf41d81ff99c8fb2e98efd358e7456ddfd671e2cfe9641951aa0fe51a"
+            "hash": "fff33a1d83e0fc0331d84db435be22a6317dae34f4e0fef7622ec2107ece889a"
         }
     },
     "bin": "pingo.exe",
