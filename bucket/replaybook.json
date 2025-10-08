@@ -15,7 +15,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fraxiinus/ReplayBook/releases/download/v$versions/ReplayBook.zip"
+        "url": "https://github.com/fraxiinus/ReplayBook/releases/download/$versions/ReplayBook.zip"
     }
 }
 
