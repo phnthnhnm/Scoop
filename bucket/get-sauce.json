@@ -1,12 +1,12 @@
 {
-    "version": "1.9.2",
+    "version": "1.10.0",
     "description": "A command line program to download videos and images from multiple websites ",
     "homepage": "https://github.com/gan-of-culture/get-sauce",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v1.9.2/get-sauce_1.9.2_Windows_x86_64.zip",
-            "hash": "49ba098cc09a0affb250e28b4522642234e50e8a82de104bab2b8bce097ad929"
+            "url": "https://github.com/gan-of-culture/get-sauce/releases/download/v1.10.0/get-sauce_1.10.0_Windows_x86_64.zip",
+            "hash": "dc5a6ff8c14bd2bfc7b746a0fe9ea7e41fc6ede6b19d4184b7f567190fc9035a"
         }
     },
     "bin": "get-sauce.exe",
