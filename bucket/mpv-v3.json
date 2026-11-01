@@ -1,12 +1,12 @@
 {
-    "version": "20261031-git-9e2ed65eb0",
+    "version": "20261101-git-914a11c30c",
     "description": "mpv Windows builds with latest commits (by zhongfly)",
     "homepage": "https://mpv.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/latest/download/mpv-x86_64-v3-20261031-git-9e2ed65eb0.7z",
-            "hash": "4cd83c775e83c1e7e258be64e534e2b1cc1b2e43d76ac1341412342760cb63d2"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/latest/download/mpv-x86_64-v3-20261101-git-914a11c30c.7z",
+            "hash": "7f96c78c708624ea40a892967006ca62040406bfca9f778426c93e7cdd8cafec"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
